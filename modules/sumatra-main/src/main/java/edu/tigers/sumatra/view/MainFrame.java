@@ -252,10 +252,10 @@ public class MainFrame extends AMainFrame implements IReplayLoadMenuObserver
 		}
 		
 		getJMenuBar().add(sumatraMenu);
-		// getJMenuBar().add(moduliMenu);
-		// super.addMenuItems();
-		// getJMenuBar().add(lookAndFeelMenu);
-		// getJMenuBar().add(replayMenu);
+		getJMenuBar().add(moduliMenu);
+		super.addMenuItems();
+		getJMenuBar().add(lookAndFeelMenu);
+		getJMenuBar().add(replayMenu);
 	}
 	
 	

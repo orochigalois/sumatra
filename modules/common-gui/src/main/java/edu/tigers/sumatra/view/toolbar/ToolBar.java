@@ -106,10 +106,10 @@ public class ToolBar
 		
 		// --- add buttons ---
 		toolBarPanel.add(btnStartStop, "left");
-		// toolBarPanel.add(btnEmergency, "left");
-		// toolBarPanel.add(btnRecSave, "left");
-		// toolBarPanel.add(fpsPanel, "left");
-		// toolBarPanel.add(heapPanel, "left");
+		toolBarPanel.add(btnEmergency, "left");
+		toolBarPanel.add(btnRecSave, "left");
+		toolBarPanel.add(fpsPanel, "left");
+		toolBarPanel.add(heapPanel, "left");
 		toolBar.add(toolBarPanel);
 		
 		// initialize icons
